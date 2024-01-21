@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/anups1ngh/ttt.git/static/css/main.54b7c488.css",
-    "main.js": "/anups1ngh/ttt.git/static/js/main.c78e9c1d.js",
-    "index.html": "/anups1ngh/ttt.git/index.html",
-    "main.54b7c488.css.map": "/anups1ngh/ttt.git/static/css/main.54b7c488.css.map",
-    "main.c78e9c1d.js.map": "/anups1ngh/ttt.git/static/js/main.c78e9c1d.js.map"
+    "main.css": "/anups1ngh/ttt/static/css/main.54b7c488.css",
+    "main.js": "/anups1ngh/ttt/static/js/main.c78e9c1d.js",
+    "index.html": "/anups1ngh/ttt/index.html",
+    "main.54b7c488.css.map": "/anups1ngh/ttt/static/css/main.54b7c488.css.map",
+    "main.c78e9c1d.js.map": "/anups1ngh/ttt/static/js/main.c78e9c1d.js.map"
   },
   "entrypoints": [
     "static/css/main.54b7c488.css",
