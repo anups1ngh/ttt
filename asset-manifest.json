@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/anups1ngh/ttt.git/static/css/main.54b7c488.css",
+    "main.js": "/anups1ngh/ttt.git/static/js/main.0b4f7163.js",
+    "index.html": "/anups1ngh/ttt.git/index.html",
+    "main.54b7c488.css.map": "/anups1ngh/ttt.git/static/css/main.54b7c488.css.map",
+    "main.0b4f7163.js.map": "/anups1ngh/ttt.git/static/js/main.0b4f7163.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54b7c488.css",
+    "static/js/main.0b4f7163.js"
+  ]
+}
