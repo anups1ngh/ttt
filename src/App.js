@@ -22,12 +22,16 @@ function Board({ xIsNext, squares, onPlay }) {
     }
     onPlay(nextSquares);
   }
-
+  const draw = calculateDraw(squares);
   const winner = calculateWinner(squares);
   let status;
   if (winner) {
     status = 'Winner: ' + winner;
-  } else {
+  } 
+  else if (draw) {
+    status = 'Draw';
+  }
+  else {
     status = 'Next player: ' + (xIsNext ? 'X' : 'O');
   }
 
@@ -53,7 +57,7 @@ function Board({ xIsNext, squares, onPlay }) {
   );
 }
 
-let App = function Game() {
+export default function App() {
   const [history, setHistory] = useState([Array(9).fill(null)]);
   const [currentMove, setCurrentMove] = useState(0);
   const xIsNext = currentMove % 2 === 0;
@@ -115,4 +119,6 @@ function calculateWinner(squares) {
   return null;
 }
 
-export default App;
+function calculateDraw(squares) {
+  return squares.every((square) => square !== null);
+}
